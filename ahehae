@@ -1,0 +1,10 @@
+ageecho "$(date)" >> log.txt
+git add log.txt
+git commit -m "Aktualizacja: $(date)"
+git pushecho "$(date)" >> log.txt
+git add log.txt
+git commit -m "Aktualizacja: $(date)"
+git pushecho "$(date)" >> log.txt
+git add log.txt
+git commit -m "Aktualizacja: $(date)"
+git push
